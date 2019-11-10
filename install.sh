@@ -15,13 +15,13 @@ cat /etc/shells | grep /usr/local/bin/fish || sudo sh -c 'echo "/usr/local/bin/f
 chsh -s /usr/local/bin/fish
 
 # install oh my fish
-curl -L https://get.oh-my.fish | fish
+#curl -L https://get.oh-my.fish | fish
 
 # install oh my fsh themes
-omf install bobthefish
-brew tap caskroom/fonts
-brew cask install font-hack-nerd-font
-set -g theme_nerd_fonts yes
+#omf install bobthefish
+#brew tap caskroom/fonts
+#brew cask install font-hack-nerd-font
+#set -g theme_nerd_fonts yes
 
-git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+#git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
