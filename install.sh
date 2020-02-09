@@ -6,10 +6,8 @@ xcode-select --install
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# install fish
-brew install fish 
-cat /etc/shells | grep /usr/local/bin/fish || sudo sh -c 'echo "/usr/local/bin/fish" >> /etc/shells'
-chsh -s /usr/local/bin/fish
+# install "Oh My Zsh"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install JDK
 brew cask install java
@@ -37,3 +35,4 @@ brew cask install iterm2
 
 # install NodeJS
 brew install node
+
