@@ -1,0 +1,17 @@
+source /usr/local/share/antigen/antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle git
+antigen bundle zsh-users/zsh-autosuggestions
+
+# Load the theme.
+antigen theme robbyrussell
+
+# Tell Antigen that you're done.
+antigen apply
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
+
