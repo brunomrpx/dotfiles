@@ -20,8 +20,9 @@ bold_italic.family = "JetBrainsMono Nerd Font"
 size = 15.0
 
 [cursor]
-style.shape = "Block"
-style.blinking = "On"
+style.shape    = "Block"
+style.blinking = "Always"
+blink_interval = 500
 
 # Colors (Kanagawa Dragon)
 # Inspired in: https//github.com/rebelot/kanagawa.nvim
